@@ -14,27 +14,17 @@ function Footer({ footerRef }) {
     {
       name: "GitHub",
       icon: <AiFillGithub />,
-      link: "https://github.com/satendra03",
+      link: "https://github.com/Dhruv-Pahwa",
     },
     {
       name: "Linkedin",
       icon: <AiFillLinkedin />,
-      link: "https://linkedin.com/in/connect-satendra",
+      link: "https://www.linkedin.com/in/akshara-singh-a2012028b/",
     },
     {
       name: "Instagram",
       icon: <AiFillInstagram />,
-      link: "https://instagram.com/_satendra_03",
-    },
-    {
-      name: "Mail",
-      icon: <AiFillMail />,
-      link: "mailto:satendrakumarparteti.work@gmail.com",
-    },
-    {
-      name: "Twitter",
-      icon: <AiFillTwitterCircle />,
-      link: "https://twitter.com/satendra_03",
+      link: "https://www.instagram.com/harshshshuu?igsh=Yjk3dGpsbm4wODFm",
     },
   ];
   return (
@@ -43,7 +33,7 @@ function Footer({ footerRef }) {
       className="footer w-full flex flex-col text-muted-foreground items-center justify-center md:p-4 py-2 border-t"
     >
       <p className="sm:font-semibold sm:text-lg  bg-gradient-to-b from-primary/90 to-primary/60 bg-clip-text text-transparent">
-        Made by Satendra Kumar Parteti
+        Made by Akshara, Dhruv, Harshita
       </p>
       <div className="logos flex items-center justify-center gap-5 w-full">
         {socialIcons.map((item, index) => {

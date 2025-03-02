@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            text-align: center;
+            color: #333;
+        }
+        h1, h2 {
+            color: #fff;
+        }
+        a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            background: rgba(0, 123, 255, 1); /* Bright blue background */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            position: relative;
+            z-index: 2;
+        }
+        .contact-info {
+            margin-top: 20px;
+        }
+        .background-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 1;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.1); /* Slightly dark overlay */
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop class="background-video">
+        <source src="public\7399-200092386_medium.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="overlay"></div>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p><b>Feel free to contact us at any time.</b></p>
+        <div class="contact-info">
+            <h2>E-mail: <a href="mailto:akshara.singh@bscdsaih.christuniversity.in" style="color: white;">akshara.singh@bscdsaih.christuniversity.in</a></h2>
+            <h2>E-mail: <a href="mailto:dhruv.pahwa@bscdsaih.christuniversity.in" style="color: white;">dhruv.pahwa@bscdsaih.christuniversity.in</a></h2>
+            <h2>E-mail: <a href="mailto:harshita.jain@bscdsaih.christuniversity.in" style="color: white;">harshita.jain@bscdsaih.christuniversity.in</a></h2>
+            <p><b>Connect with us on LinkedIn</b></p>
+            <h2><a href="https://www.linkedin.com/in/dhruv-pahwa-854205189/?originalSubdomain=in" style="color: white;">Dhruv Pahwa</a></h2>
+            <h2><a href="https://www.linkedin.com/in/akshara-singh-a2012028b/" style="color: white;">Akshara Singh</a></h2>
+            <h2><a href="https://www.linkedin.com/in/harshita-jain-hjartxstudio/" style="color: white;">Harshita Jain</a></h2>
+        </div>
+    </div>
+</body>
+</html>

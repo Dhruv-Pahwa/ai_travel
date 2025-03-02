@@ -89,7 +89,7 @@ function Hero({ heroRef }) {
             Embark on Electrifying <br /> Adventures with
           </h1>
           <h1 className="font-black text-5xl md:text-9xl bg-gradient-to-b from-blue-400 to-blue-700 bg-clip-text text-center text-transparent pb-4">
-            JourneyJolt
+            PlanwiseAI
           </h1>
         </div>
         <div className="desc">
@@ -108,9 +108,9 @@ function Hero({ heroRef }) {
           <Link
             target="_blank"
             rel="noopener noreferrer"
-            to="https://www.buymeacoffee.com/satendra03"
+            to="/contact.html"
           >
-            <Button variant="secondary">Buy Me a Coffee</Button>
+            <Button variant="secondary">Contact us</Button>
           </Link>
         </div>
         <div className="marquee relative flex w-[75vw] flex-col items-center justify-center overflow-hidden rounded-lg bg-background">
