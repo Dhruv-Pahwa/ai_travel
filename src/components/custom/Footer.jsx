@@ -24,7 +24,7 @@ function Footer({ footerRef }) {
     {
       name: "Instagram",
       icon: <AiFillInstagram />,
-      link: "https://www.instagram.com/harshshshuu?igsh=Yjk3dGpsbm4wODFm",
+      link: "https://www.instagram.com/hjartxstudio?igsh=MTB6M2VsbjN3NXptOQ==",
     },
   ];
   return (
