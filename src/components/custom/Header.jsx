@@ -44,8 +44,7 @@ function Header({ headerRef }) {
       <div className="hidden md:flex items-center gap-8 text-lg font-medium">
         <Link to="/" className="hover:text-blue-600">Home</Link>
         <Link to="/popular-plans" className="hover:text-blue-600">Popular Plans</Link>
-        <Link to="/pricing" className="hover:text-blue-600">Pricing</Link>
-      </div>
+        <a href="/contact.html" className="hover:text-blue-600">Contact Us</a>      </div>
       
       <div className="flex items-center gap-5">
         <ThemeToggle />
